@@ -6,10 +6,6 @@ inputs:
     file-names:
         description: "Json array of files to scan for changes"
         required: true
-    
-    pr-labels:
-        description: "Json array of labels to be applied to the pull request if those files change"
-        required: true
 
 runs:
   using: "node12"
