@@ -13,7 +13,5 @@ jobs:
       - name: apply-label
         uses: ./.github/actions/apply-label
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
           file-names: '["thisisafile-1.cs", "thisisafile2-cs"}'
-          pr-labels: '["thisisalabel-1", "thisisalabel-2"}'
           
