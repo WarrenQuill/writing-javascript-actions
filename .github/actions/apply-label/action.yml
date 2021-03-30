@@ -1,0 +1,12 @@
+name: "Apply Label
+
+description: "Apply specified label(s) to the provided pull request when specified file(s) change"
+
+inputs:
+    file-names:
+        description: "Json array of files to scan for changes"
+        required: true
+
+runs:
+  using: "node12"
+  main: "main.js"
