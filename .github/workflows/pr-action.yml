@@ -1,7 +1,7 @@
 name: JS Actions
 
 on:
-  [pull-request]
+  pull_request
 
 jobs:
   action:
